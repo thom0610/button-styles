@@ -9,7 +9,7 @@ html {
 
 div {
   text-align: center;
-  padding: .3em;
+  padding: .5em;
 }
 
 a {
@@ -24,25 +24,26 @@ a {
   border-width: 3px;
   padding: .4em .75em .3em;
   border-radius: 8px;
+  border: 3px solid #333;
 }
 
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
-  border-width: 3px;
+  border-color: #ccc;
+
 }
 
 .btn-ghost {
   background-color: #fff;
   color: #333;
-  border: 3px solid #333;
-  border-width: 3px;
+  border-color: #333;
 }
 
 .btn-warning {
   background-color: #f33;
   color: #fff;
-  border-width: 3px;
+  border-color: #f33;
 }
 
 .btn-small {
